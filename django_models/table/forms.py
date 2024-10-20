@@ -20,7 +20,7 @@ class UserForm(forms.ModelForm):
 
 class AddressForm(forms.ModelForm):
     class Meta:
-        model = User
+        model = Address
         fields = '__all__'
 
         labels = {
@@ -39,7 +39,7 @@ class AddressForm(forms.ModelForm):
 
 class PhoneNumberForm(forms.ModelForm):
     class Meta:
-        model = User
+        model = PhoneNumber
         fields = '__all__'
 
         labels = {
@@ -54,7 +54,7 @@ class PhoneNumberForm(forms.ModelForm):
 
 class ProfessionForm(forms.ModelForm):
     class Meta:
-        model = User
+        model = Profession
         fields = '__all__'
 
         labels = {
